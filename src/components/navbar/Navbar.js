@@ -4,7 +4,7 @@ const Navbar = () => {
 	return (
 		<div className="navbar">
 			<div className="navContainer">
-				<span className="logo">Koko Reservations</span>
+				<span className="logo">Koko Bookings</span>
 				{/* /.logo */}
 				<div className="navItems">
 					<button className="navButton">Register</button>
