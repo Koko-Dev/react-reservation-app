@@ -2,7 +2,20 @@ import './navbar.css';
 
 const Navbar = () => {
 	return (
-		<div>Navbar</div>
+		<div className="navbar">
+			<div className="navContainer">
+				<span className="logo">lamabooking</span>
+				{/* /.logo */}
+				<div className="navItems">
+					<button className="navButton">Register</button>
+					{/* /.navButton */}
+					<button className="navButton">Login</button>
+					{/* /.navButton */}
+				</div>
+				{/* /.navItems */}
+			</div>
+			{/* /.navContainer */}
+		</div>
 	)
 }
 
