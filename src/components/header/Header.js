@@ -65,8 +65,6 @@ const Header = () => {
 						</div>
 					</div>
 				</div>
-
-
 			</div>
 			{/* /.headerList */}
 		</div>
