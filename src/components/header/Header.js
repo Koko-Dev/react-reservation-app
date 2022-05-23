@@ -1,6 +1,6 @@
 import './header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBedPulse, faPlane, faCar, faTaxi, faMagnet, faBed } from '@fortawesome/free-solid-svg-icons'
+import { faPlane, faCar, faTaxi, faMagnet, faBed } from '@fortawesome/free-solid-svg-icons'
 
 
 const Header = () => {
