@@ -30,15 +30,16 @@ const Header = () => {
 							<span>Airport taxis</span>
 						</div>
 					</div>
+					<h1 className="headerTitle">A lifetime of discounts? It's Genius.</h1>
+					{/* /.headerTitle */}
+					<p className="headerDesc">
+						Get rewarded for your travels - unlock instant savings of 10% or more with a free Koko Bookings account
+					</p>
+					<button className="headerBtn">Sign in / Register</button>
+					{/* /.headerBtn */}
+					{/* /.headerDesc */}
 				</div>
-				<h1 className="headerTitle">A lifetime of discounts? It's Genius.</h1>
-				{/* /.headerTitle */}
-				<p className="headerDesc">
-					Get rewarded for your travels - unlock instant savings of 10% or more with a free Koko Bookings account
-				</p>
-				<button className="headerBtn">Sign in / Register</button>
-				{/* /.headerBtn */}
-				{/* /.headerDesc */}
+
 
 			</div>
 			{/* /.headerList */}
