@@ -68,6 +68,11 @@
 	gap: 10px;
 }
 
+.headerSearchInput {
+	border: none;
+	outline: none;
+}
+
 
 
 
