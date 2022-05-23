@@ -2,7 +2,15 @@ import './header.css';
 
 const Header = () => {
 	return (
-		<div className="header">Header</div>
+		<div className="header">
+			<div className="headerList">
+				<div className="headerListItem">
+
+				</div>
+				{/* /.headerListItem */}
+			</div>
+			{/* /.headerList */}
+		</div>
 	)
 }
 
