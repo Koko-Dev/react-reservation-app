@@ -9,7 +9,7 @@ const Header = () => {
 			<div className="headerList">
 				<div className="headerContainer">
 					<div className="headerList">
-						<div className="headerListItem">
+						<div className="headerListItem active">
 							<FontAwesomeIcon icon={faBed}/>
 							<span>Stays</span>
 						</div>
