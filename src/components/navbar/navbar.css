@@ -9,4 +9,10 @@
 	width: 100%;
 	max-width: 1024px;
 	background-color: red;
+	color: white;
+	display: flex;
+}
+
+.logo {
+	font-weight: 500;
 }
