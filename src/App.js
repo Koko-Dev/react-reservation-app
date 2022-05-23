@@ -6,9 +6,11 @@ import {
 
 function App() {
   return (
-    <div>
-      Hello world!
-    </div>
+    <BrowserRouter>
+	    <Routes>
+		    <Route path="/" element={} />
+	    </Routes>
+    </BrowserRouter>
   );
 }
 
