@@ -1,6 +1,14 @@
 import './header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlane, faCar, faTaxi, faMagnet, faBed } from '@fortawesome/free-solid-svg-icons'
+import {
+	faPlane,
+	faCar,
+	faTaxi,
+	faMagnet,
+	faBed,
+	faCalendarDays,
+	faPerson,
+} from '@fortawesome/free-solid-svg-icons'
 
 
 const Header = () => {
@@ -35,6 +43,22 @@ const Header = () => {
 						Get rewarded for your travels - unlock instant savings of 10% or more with a free Koko Bookings account
 					</p>
 					<button className="headerBtn">Sign in / Register</button>
+					<div className="headerSearchItem">
+						<FontAwesomeIcon icon={faBed} className="headerIcon" />
+						<input type="text"
+						       placeholder="Where are you going?"
+						       className="headerSearchInput"/>
+					</div>
+					<div className="headerSearchItem">
+						<FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
+						<span className="headerSearchText">date to date</span>
+						{/* /.headerSearchText */}
+
+					</div>
+					<div className="headerSearchItem">
+						<FontAwesomeIcon icon={faPerson} className="headerIcon" />
+						<span className="headerSearchText">2 adults 2 children 1 room</span>
+					</div>
 				</div>
 
 
