@@ -19,8 +19,8 @@ const Header = () => {
 	const [date, setDate] = useState([
 		{
 			stateDate: new Date(),
-			endDate: null,
-			key: 'selection'
+			endDate: new Date(),
+			key: 'selection',
 		}
 	]);
 	return (
