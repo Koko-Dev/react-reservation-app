@@ -149,7 +149,7 @@ const Header = () => {
 										-
 									</button>
 									{/* /.optionCounterButton */}
-									<span className="optionCounterNumber">{options.adult}</span>
+									<span className="optionCounterNumber">{options.children}</span>
 									{/* /.optionCounterNumber */}
 									<button
 										className="optionCounterButton"
