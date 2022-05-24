@@ -114,7 +114,7 @@ const Header = () => {
 									${options.room} room`
 								}
 						</span>
-						<div className="options">
+						{openOptions && <div className="options">
 							<div className="optionsItem">
 								<span className="optionText">Adult</span>
 								{/* /.optionText */}
@@ -182,7 +182,7 @@ const Header = () => {
 								</div>
 							</div>
 							{/* /.optionsItem */}
-						</div>
+						</div>}
 						{/* /.options */}
 					</div>
 					<div className="headerSearchItem">
