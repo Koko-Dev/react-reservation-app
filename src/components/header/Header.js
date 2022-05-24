@@ -105,6 +105,50 @@ const Header = () => {
 									${options.room} room`
 								}
 						</span>
+						<div className="options">
+							<div className="optionsItem">
+								<span className="optionText">Adult</span>
+								{/* /.optionText */}
+								<div className="optionCounter">
+									<button className="optionCounterButton">-</button>
+									{/* /.optionCounterButton */}
+									<span className="optionCounterNumber">1</span>
+									{/* /.optionCounterNumber */}
+									<button className="optionCounterButton">+</button>
+									{/* /.optionCounterButton */}
+								</div>
+							</div>
+							{/* /.optionsItem */}
+
+							<div className="optionsItem">
+								<span className="optionText">Children</span>
+								{/* /.optionText */}
+								<div className="optionCounter">
+									<button className="optionCounterButton">-</button>
+									{/* /.optionCounterButton */}
+									<span className="optionCounterNumber">0</span>
+									{/* /.optionCounterNumber */}
+									<button className="optionCounterButton">+</button>
+									{/* /.optionCounterButton */}
+								</div>
+							</div>
+							{/* /.optionsItem */}
+
+							<div className="optionsItem">
+								<span className="optionText">Room</span>
+								{/* /.optionText */}
+								<div className="optionCounter">
+									<button className="optionCounterButton">-</button>
+									{/* /.optionCounterButton */}
+									<span className="optionCounterNumber">1</span>
+									{/* /.optionCounterNumber */}
+									<button className="optionCounterButton">+</button>
+									{/* /.optionCounterButton */}
+								</div>
+							</div>
+							{/* /.optionsItem */}
+						</div>
+						{/* /.options */}
 					</div>
 					<div className="headerSearchItem">
 						<button className="headerBtn">Search</button>
