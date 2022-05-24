@@ -1,5 +1,5 @@
 import './header.css';
-import { useState } from 'react';
+import {useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {
 	faPlane,
@@ -12,8 +12,8 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file
-import { DateRange } from 'react-date-range';
-import { format } from "date-fns";
+import {DateRange} from 'react-date-range';
+import {format} from "date-fns";
 
 
 const Header = () => {
@@ -66,10 +66,13 @@ const Header = () => {
 					<div className="headerSearchItem">
 						<FontAwesomeIcon icon={faCalendarDays}
 						                 className="headerIcon"/>
-						<span className="headerSearchText">{`${format(date[0].startDate, "MM/dd/yyyy")} to ${format(
-							date[0].endDate,
-							"MM/dd/yyyy"
-						)}`}</span>
+						<span className="headerSearchText">
+							{`${format(date[0].startDate, "MM/dd/yyyy")}
+							 to ${format(
+								date[0].endDate,
+								"MM/dd/yyyy"
+							)}`}
+						</span>
 						{/* /.headerSearchText */}
 						<DateRange
 							editableDateInputs={true}
