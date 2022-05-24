@@ -120,6 +120,7 @@ const Header = () => {
 								{/* /.optionText */}
 								<div className="optionCounter">
 									<button
+										disabled={options.adult <= 1}
 										className="optionCounterButton"
 										onClick={() => handleOption("adult", "d")}>
 										-
@@ -142,6 +143,7 @@ const Header = () => {
 								{/* /.optionText */}
 								<div className="optionCounter">
 									<button
+										disabled={options.children <= 0}
 										className="optionCounterButton"
 										onClick={() => handleOption("children", "d")}>
 										-
@@ -163,6 +165,7 @@ const Header = () => {
 								{/* /.optionText */}
 								<div className="optionCounter">
 									<button
+										disabled={options.room <= 1}
 										className="optionCounterButton"
 										onClick={() => handleOption("room", "d")}>
 										-
