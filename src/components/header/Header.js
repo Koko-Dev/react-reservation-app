@@ -72,8 +72,8 @@ const Header = () => {
 							onChange={item => setDate([item.selection])}
 							moveRangeOnFirstSelection={false}
 							ranges={date}
+							className="date"
 						/>
-
 					</div>
 					<div className="headerSearchItem">
 						<FontAwesomeIcon icon={faPerson}
