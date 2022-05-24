@@ -13,15 +13,16 @@ import {
 import 'react-date-range/dist/styles.css'; // main css file
 import 'react-date-range/dist/theme/default.css'; // theme css file
 import { DateRange } from 'react-date-range';
+import { format } from "date-fns";
 
 
 const Header = () => {
 	const [date, setDate] = useState([
 		{
-			stateDate: new Date(),
+			startDate: new Date(),
 			endDate: new Date(),
-			key: 'selection',
-		}
+			key: "selection",
+		},
 	]);
 	return (
 		<div className="header">
@@ -65,7 +66,10 @@ const Header = () => {
 					<div className="headerSearchItem">
 						<FontAwesomeIcon icon={faCalendarDays}
 						                 className="headerIcon"/>
-						<span className="headerSearchText">date to date</span>
+						<span className="headerSearchText">{`${format(date[0].startDate, "MM/dd/yyyy")} to ${format(
+							date[0].endDate,
+							"MM/dd/yyyy"
+						)}`}</span>
 						{/* /.headerSearchText */}
 						<DateRange
 							editableDateInputs={true}
