@@ -10,7 +10,7 @@
 .featuredItem {
 	position: relative;
 	border-radius: 10px;
-	color: white;
+	color: #6d7073;
 	overflow: hidden;
 	height: 250px;
 	flex: 1;
