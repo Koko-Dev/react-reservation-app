@@ -11,6 +11,8 @@ const List = () => {
 	const [openDate, closeDate] = useState(false);
 	const [options, setOptions] = useState(location.state.options);
 	
+	console.log(location);
+	
 	return (
 		<div>
 			<Navbar />
