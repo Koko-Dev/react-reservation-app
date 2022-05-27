@@ -22,6 +22,7 @@ const List = () => {
 						<div className="lsItem">
 							<label htmlFor="">Check-in Date</label>
 							
+							
 						</div>
 						{/* /.lsItem */}
 					</div>
