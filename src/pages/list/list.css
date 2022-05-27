@@ -48,6 +48,15 @@
 	padding: 5px;
 }
 
+.lsItem > span {
+	height: 30px;
+	padding: 5px;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
 .listResult {
 	flex: 3;
 }
