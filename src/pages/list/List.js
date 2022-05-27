@@ -25,8 +25,8 @@ const List = () => {
 						<h1 className="lsTitle">Search</h1>
 						{/* /.lsTitle */}
 						<div className="lsItem">
-							<label htmlFor="" placeholder={destination}>Destination</label>
-							<input type="text"/>
+							<label>Destination</label>
+							<input placeholder={destination} type="text" />
 						</div>
 						{/* /.lsItem */}
 						<div className="lsItem">
