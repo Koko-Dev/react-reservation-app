@@ -21,6 +21,7 @@ const List = () => {
 						{/* /.lsItem */}
 						<div className="lsItem">
 							<label htmlFor="">Check-in Date</label>
+							
 						</div>
 						{/* /.lsItem */}
 					</div>
@@ -31,7 +32,6 @@ const List = () => {
 				{/* /.listWrapper */}
 			</div>
 			{/* /.listContainer */}
-			
 		</div>
 	)
 }

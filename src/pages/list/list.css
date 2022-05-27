@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
+	outline: 2px solid green;
 }
 
 .listWrapper {
@@ -9,4 +10,44 @@
 	max-width: 1024px;
 	display: flex;
 	gap: 20px;
+	outline: 2px solid red;
+
+}
+
+.listSearch {
+	flex: 1;
+	outline: 2px solid blue;
+	background-color: #ccc3ba;
+	padding: 10px;
+	border-radius: 10px;
+	position: sticky;
+	top: 10px;
+	height: max-content;
+}
+
+.lsTitle {
+	font-size: 20px;
+	color: #193e6d;
+	margin-bottom: 10px;
+}
+
+.lsItem{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-bottom: 10px;
+}
+
+.lsItem > label {
+	font-size: 12px;
+}
+
+.lsItem > input{
+	height: 30px;
+	border: none;
+	padding: 5px;
+}
+
+.listResult {
+	flex: 3;
 }
