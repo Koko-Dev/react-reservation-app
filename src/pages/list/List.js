@@ -12,6 +12,7 @@ const List = () => {
 	const [date, setDate] = useState(location.state.date);
 	const [openDate, setOpenDate] = useState(false);
 	const [options, setOptions] = useState(location.state.options);
+	console.log(options);
 	
 	return (
 		<div>
@@ -40,6 +41,63 @@ const List = () => {
 									ranges={date}
 								/>
 							)}
+						</div>
+						{/* /.lsItem */}
+						<div className="lsItem">
+							<label htmlFor="">Options</label>
+							<div className="lsOptions">
+								<div className="lsOptionItem">
+									<span className="lsOptionText">
+										Min price <small>per night</small>
+									</span>
+									{/* /.lsOptionText */}
+									<input type="number"
+									       className="lsOptionInput"/>
+									{/* /.lsOptionInput */}
+								</div>
+								{/* /.lsOptionItem */}
+								<div className="lsOptionItem">
+									<span className="lsOptionText">
+										Max price <small>per night</small>
+									</span>
+									{/* /.lsOptionText */}
+									<input type="number"
+									       className="lsOptionInput"/>
+									{/* /.lsOptionInput */}
+								</div>
+								{/* /.lsOptionItem */}
+								<div className="lsOptionItem">
+									<span className="lsOptionText">Adult</span>
+									{/* /.lsOptionText */}
+									<input type="number"
+									       min={1}
+									       placeholder={options.adult}
+									       className="lsOptionInput"/>
+									{/* /.lsOptionInput */}
+								</div>
+								{/* /.lsOptionItem */}
+								<div className="lsOptionItem">
+									<span className="lsOptionText">Children</span>
+								{/* /.lsOptionText */}
+									<input type="number"
+									       min={0}
+									       placeholder={options.children}
+									       className="lsOptionInput"/>
+									{/* /.lsOptionInput */}
+								</div>
+								{/* /.lsOptionItem */}
+								<div className="lsOptionItem">
+									<span className="lsOptionText">Room</span>
+									{/* /.lsOptionText */}
+									<input type="number"
+									       min={1}
+									       placeholder={options.room}
+									       className="lsOptionInput"/>
+									{/* /.lsOptionInput */}
+								</div>
+								{/* /.lsOptionItem */}
+							</div>
+							{/* /.lsOptions */}
 						</div>
 						{/* /.lsItem */}
 					</div>
