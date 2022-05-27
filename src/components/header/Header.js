@@ -94,6 +94,7 @@ const Header = ({type}) => {
 								                 className="headerIcon"/>
 								<input type="text"
 								       placeholder="Where are you going?"
+								       onChange={e => setDestination(e.target.value)}
 								       className="headerSearchInput"/>
 							</div>
 							<div className="headerSearchItem">
