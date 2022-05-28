@@ -100,6 +100,7 @@ const List = () => {
 							{/* /.lsOptions */}
 						</div>
 						{/* /.lsItem */}
+						<button>Search</button>
 					</div>
 					{/* /.listSearch */}
 					<div className="listResult"></div>
