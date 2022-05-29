@@ -63,10 +63,9 @@
 .lsOptionItem {
 	display: flex;
 	margin-bottom: 12px;
-	/*color: #555;*/
-	/*color: #441c14;*/
 	color: #d8d7d4;
 	font-size: 13px;
+	justify-content: space-between;
 }
 
 .lsOptionItem > .lsOptionText {
