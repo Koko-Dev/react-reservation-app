@@ -1,10 +1,10 @@
-import  './list.css';
+import './list.css';
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
-import { useLocation } from "react-router-dom";
-import { useState } from "react";
-import { format } from "date-fns";
-import { DateRange } from "react-date-range";
+import {useLocation} from "react-router-dom";
+import {useState} from "react";
+import {format} from "date-fns";
+import {DateRange} from "react-date-range";
 
 const List = () => {
 	const location = useLocation();
@@ -16,8 +16,8 @@ const List = () => {
 	
 	return (
 		<div>
-			<Navbar />
-			<Header type="list" />
+			<Navbar/>
+			<Header type="list"/>
 			<div className="listContainer">
 				<div className="listWrapper">
 					<div className="listSearch">
@@ -25,7 +25,8 @@ const List = () => {
 						{/* /.lsTitle */}
 						<div className="lsItem">
 							<label>Destination</label>
-							<input placeholder={destination} type="text" />
+							<input placeholder={destination}
+							       type="text"/>
 						</div>
 						{/* /.lsItem */}
 						<div className="lsItem">
@@ -78,7 +79,7 @@ const List = () => {
 								{/* /.lsOptionItem */}
 								<div className="lsOptionItem">
 									<span className="lsOptionText">Children</span>
-								{/* /.lsOptionText */}
+									{/* /.lsOptionText */}
 									<input type="number"
 									       min={0}
 									       placeholder={options.children}
