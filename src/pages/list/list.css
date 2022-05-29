@@ -24,8 +24,9 @@
 
 .lsTitle {
 	font-size: 20px;
-	color: #193e6d;
+	color: white;
 	margin-bottom: 10px;
+	font-weight: 500;
 }
 
 .lsItem{
@@ -61,7 +62,8 @@
 .lsOptionItem {
 	display: flex;
 	margin-bottom: 12px;
-	color: #555;
+	/*color: #555;*/
+	color: #441c14;
 	font-size: 12px;
 }
 
@@ -71,7 +73,8 @@
 
 .listSearch {
 	padding: 10px;
-	background-color: #28a4de;
+	background-color: #938181;
+	color: #441c14;
 }
 
 .listResult {
