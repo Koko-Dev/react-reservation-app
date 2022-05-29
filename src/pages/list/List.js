@@ -72,7 +72,7 @@ const List = () => {
 									{/* /.lsOptionText */}
 									<input type="number"
 									       min={1}
-									       placeholder={options.adult}
+									       placeholder={`${Number(options.adult)}`}
 									       className="lsOptionInput"/>
 									{/* /.lsOptionInput */}
 								</div>
@@ -82,7 +82,7 @@ const List = () => {
 									{/* /.lsOptionText */}
 									<input type="number"
 									       min={0}
-									       placeholder={options.children}
+									       placeholder={`${Number(options.children)}`}
 									       className="lsOptionInput"/>
 									{/* /.lsOptionInput */}
 								</div>
@@ -92,7 +92,7 @@ const List = () => {
 									{/* /.lsOptionText */}
 									<input type="number"
 									       min={1}
-									       placeholder={options.room}
+									       placeholder={`${Number(options.room)}`}
 									       className="lsOptionInput"/>
 									{/* /.lsOptionInput */}
 								</div>
