@@ -25,12 +25,50 @@
 }
 
 .featuredTitles {
+	/*color: #6d7073;*/
 	position: absolute;
 	bottom: 20px;
+
 	left: 20px;
-	-webkit-box-shadow: inset 5px 5px 93px 0px rgba(2, 8, 18, .3);
-	-moz-box-shadow: inset 5px 5px 93px 0px rgba(2, 8, 18, .3);
-	box-shadow: inset 5px 5px 93px 0px rgba(2, 8, 18, .3);
+
+	/* Summer Sky - #28a4de */
+	/*-webkit-box-shadow: inset 5px 5px 93px 0px #28a4de;*/
+	/*-moz-box-shadow: inset 5px 5px 93px 0px #28a4de;*/
+	/*box-shadow: inset 5px 5px 93px 0px #28a4de;*/
+
+	/* Medium Wood - #AC8163 */
+	/*-webkit-box-shadow: inset 5px 5px 93px 0px #AC8163;*/
+	/*-moz-box-shadow: inset 5px 5px 93px 0px #AC8163;*/
+	/*box-shadow: inset 5px 5px 93px 0px #AC8163;*/
+
+	/* Indochine - #946335 */
+	/*-webkit-box-shadow: inset 5px 5px 93px 0px #946335;*/
+	/*-moz-box-shadow: inset 5px 5px 93px 0px #946335;*/
+	/*box-shadow: inset 5px 5px 93px 0px #946335;*/
+
+	/* Opium - #938181 - */
+	/*-webkit-box-shadow: inset 5px 5px 93px 0px rgba(147, 129, 129, 1);*/
+	/*-moz-box-shadow: inset 5px 5px 93px 0px rgba(147, 129, 129, 1);*/
+	/*box-shadow: inset 5px 5px 93px 0px rgba(147, 129, 129, 1);*/
+	/* Chocolato - #603a2c */
+	/*-webkit-box-shadow: inset 5px 5px 93px 0px rgba(96, 58, 44, 1);*/
+	/*-moz-box-shadow: inset 5px 5px 93px 0px rgba(96, 58, 44, 1);*/
+	/*box-shadow: inset 5px 5px 93px 0px rgba(96, 58, 44, 1);*/
+
+	/* Mid Black */
+	-webkit-box-shadow: inset 5px 5px 93px 0px rgba(12, 12, 13, .93);
+	-moz-box-shadow: inset 5px 5px 93px 0px rgba(12, 12, 13, .93);
+	box-shadow: inset 5px 5px 93px 0px rgba(12, 12, 13, .93);
+
+	/* Mid Grey - #6d7073 */
+	/*-webkit-box-shadow: inset 5px 5px 93px 0px rgba(109, 112, 115, 1);*/
+	/*-moz-box-shadow: inset 5px 5px 93px 0px rgba(109, 112, 115, 1);*/
+	/*box-shadow: inset 5px 5px 93px 0px rgba(109, 112, 115, 1);*/
+
+	/* Midnight Blue - #193e6d*/
+	/*-webkit-box-shadow: inset 5px 5px 93px 0px rgba(25, 62, 109, 1);*/
+	/*-moz-box-shadow: inset 5px 5px 93px 0px rgba(25, 62, 109, 1);*/
+	/*box-shadow: inset 5px 5px 93px 0px rgba(25, 62, 109, 1);*/
 	z-index: 3;
 	border-radius: 8px;
 }
