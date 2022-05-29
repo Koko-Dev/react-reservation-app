@@ -67,6 +67,10 @@
 	font-size: 12px;
 }
 
+.lsOptionItem > .lsOptionText {
+	margin-right: 5px;
+}
+
 .lsOptionInput {
 	width: 50px;
 }
