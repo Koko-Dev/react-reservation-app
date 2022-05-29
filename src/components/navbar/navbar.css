@@ -1,6 +1,11 @@
 .navbar {
 	height: 50px;
-	background-color: #938181;
+	/*background-color: #938181;*/
+
+	background: #938181;
+	background: radial-gradient(circle farthest-corner at center center, #938181 0%, #603a2c 80%);
+	background: -webkit-radial-gradient(circle farthest-corner at center center, #938181 0%, #603a2c 80%);
+	background: -moz-radial-gradient(circle farthest-corner at center center, #938181 0%, #603a2c 80%);
 	display: flex;
 	justify-content: center;
 }

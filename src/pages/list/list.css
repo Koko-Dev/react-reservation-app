@@ -79,8 +79,22 @@
 
 .listSearch {
 	padding: 10px;
-	background-color: #938181;
 	color: #441c14;
+	background: #938181;
+	background: radial-gradient(circle farthest-corner at center center, #938181 0%, #603a2c 80%);
+	background: -webkit-radial-gradient(circle farthest-corner at center center, #938181 0%, #603a2c 80%);
+	background: -moz-radial-gradient(circle farthest-corner at center center, #938181 0%, #603a2c 80%);
+
+}
+
+.listSearch>button{
+	padding: 10px;
+	background-color: #28a4de;
+	color: white;
+	border: none;
+	width: 100%;
+	font-weight: 500;
+	cursor: pointer;
 }
 
 .listResult {
