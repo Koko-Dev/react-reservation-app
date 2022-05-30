@@ -105,10 +105,12 @@
 .siCheckButton {
 	background-color: #28a4de;
 	color: white;
-	font-weight: bold;
+	font-weight: 500;
+	font-size: 14px;
 	padding: 10px 5px;
 	border: none;
 	cursor: pointer;
 	border-radius: 5px;
+	letter-spacing: .2px;
 }
 
