@@ -36,6 +36,7 @@
 
 .headerDesc {
 	margin: 20px 0;
+	font-weight: 300;
 }
 
 .headerBtn {
@@ -45,6 +46,7 @@
 	font-weight: 500;
 	padding: 10px;
 	cursor: pointer;
+	border-radius: 5px;
 }
 
 .headerSearch {
@@ -127,3 +129,8 @@
 .optionCounterButton:disabled {
 	cursor: not-allowed;
 }
+
+.headerTitle {
+	font-weight: 500;
+}
+

@@ -85,7 +85,7 @@ const Header = ({type}) => {
 					<><h1 className="headerTitle">A lifetime of discounts? It's Genius.</h1>
 						<p className="headerDesc">
 							Get rewarded for your travels - unlock instant savings of 10% or more with a free Koko Bookings
-							account
+							account.
 						</p>
 						<button className="headerBtn">Sign in / Register</button>
 						<div className="headerSearch">
