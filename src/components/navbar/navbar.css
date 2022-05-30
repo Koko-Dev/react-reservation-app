@@ -28,5 +28,6 @@
 	border: none;
 	padding: 5px 10px;
 	cursor: pointer;
-	color: #603a2c;;
+	color: #603a2c;
+	font-weight: 500;
 }
