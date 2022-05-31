@@ -38,3 +38,13 @@
 	gap: 10px;
 }
 
+.hotelDistance {
+	color: #28a4de;
+	font-weight: 500;
+}
+
+.hotelPriceHighlight {
+	color: #193e6d;
+	font-weight: 600;
+}
+
