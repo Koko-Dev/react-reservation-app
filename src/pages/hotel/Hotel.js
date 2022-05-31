@@ -9,6 +9,8 @@ import {
 	faCircleXmark,
 	faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
+import MailList from '../../components/mailList/MailList';
+import Footer from '../../components/footer/Footer';
 
 const Hotel = () => {
 	const [slideNumber, setSlideNumber] = useState(0);
@@ -149,6 +151,8 @@ const Hotel = () => {
 					{/* /.hotelDetails */}
 				</div>
 				{/* /.hotelWrapper */}
+				<MailList />
+				<Footer />
 			</div>
 			{/* /.hotelContainer */}
 		</div>
