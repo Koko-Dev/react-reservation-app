@@ -134,5 +134,16 @@
 	height: 80vh;
 }
 
+.close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 30px;
+	color: #ccc3ba;
+	cursor: pointer;
+	border: 2px dotted #fff;
+	border-radius: 50%;
+}
+
 
 
