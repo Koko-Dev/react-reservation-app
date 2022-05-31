@@ -133,6 +133,18 @@ const Hotel = () => {
 							{/* /.hotelDesc */}
 						</div>
 						{/* /.hotelDetailsTexts */}
+						<div className="hotelDetailsPrice">
+							<h1>Perfect for a 9-night stay!</h1>
+							<span>
+								Located in the real heart of Krakow, this property
+								has an excellent location score of 9.8!
+							</span>
+							<h2>
+								<strong>$945</strong> (9 nights)
+							</h2>
+							<button>Reserve or Book Now!</button>
+						</div>
+						{/* /.hotelDetailsPrice */}
 					</div>
 					{/* /.hotelDetails */}
 				</div>
