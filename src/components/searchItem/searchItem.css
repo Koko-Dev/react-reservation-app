@@ -24,7 +24,6 @@
 .siTitle {
 	font-size: 20px;
 	color: #28a4de;
-	text-shadow: 1px 1px 0px #603a2c;
 	font-weight: 600;
 }
 
@@ -44,6 +43,7 @@
 
 .siSubtitle {
 	font-size: 14px;
+	color: #603a2c;
 	font-weight: bold;
 }
 
@@ -112,4 +112,5 @@
 	cursor: pointer;
 	border-radius: 3px;
 }
+
 
