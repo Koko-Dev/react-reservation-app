@@ -20,11 +20,16 @@
 	right: 0;
 	border: none;
 	padding: 10px 20px;
-	background-color: #28a4de;
 	color: white;
-	font-weight: 600;
+	font-weight: 500;
 	border-radius: 5px;
 	cursor: pointer;
+	font-size: 14px;
+	background: #28a4de;
+	background: repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
+	background: -webkit-repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
+	background: -moz-repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
+
 }
 
 .hotelTitle {
@@ -105,12 +110,16 @@
 	border: none;
 	outline: none;
 	padding: 10px 20px;
-	background-color: #28a4de;
+	/*background-color: #28a4de;*/
 	color: white;
 	font-weight: 500;
 	cursor: pointer;
 	border-radius: 5px;
 	font-size:16px;
+	background: #28a4de;
+	background: repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
+	background: -webkit-repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
+	background: -moz-repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
 }
 
 .slider {

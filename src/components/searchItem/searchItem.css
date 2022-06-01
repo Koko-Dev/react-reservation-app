@@ -78,12 +78,15 @@
 }
 
 .siRating > button {
-	background-color: #28a4de;
 	color: white;
 	padding: 6px;
 	font-weight: 500;
 	border: none;
 	border-radius: 3px;
+	background: #28a4de;
+	background: repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
+	background: -webkit-repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
+	background: -moz-repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
 }
 
 .siDetailTexts {
@@ -103,7 +106,6 @@
 }
 
 .siCheckButton {
-	background-color: #28a4de;
 	color: white;
 	font-weight: 500;
 	font-size: 14px;
@@ -111,6 +113,10 @@
 	border: none;
 	cursor: pointer;
 	border-radius: 3px;
+	background: #28a4de;
+	background: repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
+	background: -webkit-repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
+	background: -moz-repeating-radial-gradient(circle farthest-corner at center center, #28a4de 0%, #32aee8 40%, #28a4de 20%);
 }
 
 
