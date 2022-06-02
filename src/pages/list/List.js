@@ -14,6 +14,7 @@ const List = () => {
 	const [openDate, setOpenDate] = useState(false);
 	const [options, setOptions] = useState(location.state.options);
 	console.log(options);
+	console.log('location is: ', location);
 	
 	return (
 		<div>
